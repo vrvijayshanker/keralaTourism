@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("/assets/bgs/kerala_island_map.jpg");
+    background-size: cover;
+
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+
+  }
+
+.mycarousel{
+      height: auto;
+      
+  }
+
+.carousel-inner{
+      border-radius: 1rem;
+  }
+
+.login-block{
+      
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: small;
+    background-color: rgba(14, 13, 13, 0.671);
+    padding-top: 10px;
+    padding-bottom: 0px;
+ }
+
+ .login-block a{
+     color: yellow;
+ }
+
+ .login-block .col-5{
+     display: flex;
+     justify-content: end;
+ }
+  
+.text-block{
+    background-color: rgba(14, 13, 13, 0.555);
+    padding: 15px;
+    border-radius: 1rem;
+    line-height: 2rem;
+
+}
+.text-block p{
+    margin: 20px 0px 5px 0px;
+}
+
+.destination-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.destination-card{
+    border-radius: 15px;
+    width: 230px;
+    height: 450px;
+    margin: 10px;
+    
+    background-color: #1a1a1daf;
+
+}
+
+.card-img{
+    
+    height: 175px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.dest-image1{
+    background: url("/assets/images/beaches-dest.jpg");
+}
+.dest-image2{
+    background: url("/assets/images/museums-dest.jpg");
+}
+.dest-image3{
+    background: url("/assets/images/picnic-dest.jpg");
+}
+.dest-image4{
+    background: url("/assets/images/things-to-do-ayurveda.jpg");
+}
+.dest-image5{
+    background: url("/assets/images/things-to-do-festival.jpg");
+}
+.dest-image6{
+    background: url("/assets/images/things-to-do-village-life.jpg");
+}
+
+.destination-card h3,p{
+    padding: 10px;
+}
+
+.destination-card a{
+    justify-content: end;
+    margin-left: 20%;
+}
+
+.destination-card:hover{
+    background-color: #2cf7c4cc;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: all 80ms ease;
+}
+
+.crumb-block{
+    background: #ffffff42;           
+}
+
+.crumb-block a{
+    color: black;
+}
+
+.vid-frame{
+    display: flex;
+    justify-content: center;
+}
+
+.know-link{
+    display: flex;
+    justify-content: end;
+}
+
+.dist-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dist-card{
+    border-radius: 15px;
+    width: 230px;
+    height: 450px;
+    margin: 10px;
+    
+    background-color: #1a1a1daf;
+
+}
+
+.dist-img{
+    
+    height: 175px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.dist-image1{
+    background: url("/assets/dist-covers/trivandrum-cover.jpg");
+}
+.dist-image2{
+    background: url("/assets/dist-covers/kollam-cover.jpg");
+}
+.dist-image3{
+    background: url("/assets/dist-covers/ptm-cover.jpg");
+}
+.dist-image4{
+    background: url("/assets/dist-covers/alp-cover.jpg");
+}
+.dist-image5{
+    background: url("/assets/dist-covers/ktm-cover.jpg");
+}
+.dist-image6{
+    background: url("/assets/dist-covers/idk-cover.jpg");
+}
+.dist-image7{
+    background: url("/assets/dist-covers/ekm-cover.jpg");
+}
+.dist-image8{
+    background: url("/assets/dist-covers/tsr-cover.jpg");
+}
+.dist-image9{
+    background: url("/assets/dist-covers/pkd-cover.jpg");
+}
+.dist-image10{
+    background: url("/assets/dist-covers/mlp-cover.jpg");
+}
+.dist-image11{
+    background: url("/assets/dist-covers/kzhd-cover.jpg");
+}
+.dist-image12{
+    background: url("/assets/dist-covers/wnd-cover.jpg");
+}
+.dist-image13{
+    background: url("/assets/dist-covers/knr-cover.jpg");
+}
+.dist-image14{
+    background: url("/assets/dist-covers/ksgd-cover.jpg");
+}
+
+.dist-card h3,p{
+    padding: 10px;
+}
+
+.dist-card a{
+    justify-content: end;
+    margin-left: 20%;
+}
+
+.dist-card:hover{
+    background-color: #2cf7c4cc;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: all 80ms ease;
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    width: 40%;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
