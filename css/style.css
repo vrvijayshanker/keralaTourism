@@ -9,7 +9,7 @@ html{
 }
 
 body {
-    background: url(".\assets\bgs\kerala_island_map.jpg");
+    background: url("../assets/bgs/kerala_island_map.jpg");
     background-size: cover;
     color: #ffffff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -82,22 +82,22 @@ body {
 }
 
 .dest-image1{
-    background: url("./assets/images/beaches-dest.jpg");
+    background: url("../assets/images/beaches-dest.jpg");
 }
 .dest-image2{
-    background: url("./assets/images/museums-dest.jpg");
+    background: url("../assets/images/museums-dest.jpg");
 }
 .dest-image3{
-    background: url("./assets/images/picnic-dest.jpg");
+    background: url("../assets/images/picnic-dest.jpg");
 }
 .dest-image4{
-    background: url("./assets/images/things-to-do-ayurveda.jpg");
+    background: url("../assets/images/things-to-do-ayurveda.jpg");
 }
 .dest-image5{
-    background: url("./assets/images/things-to-do-festival.jpg");
+    background: url("../assets/images/things-to-do-festival.jpg");
 }
 .dest-image6{
-    background: url("./assets/images/things-to-do-village-life.jpg");
+    background: url("../assets/images/things-to-do-village-life.jpg");
 }
 
 .destination-card h3,p{
@@ -159,46 +159,46 @@ body {
 }
 
 .dist-image1{
-    background: url("./assets/dist-covers/trivandrum-cover.jpg");
+    background: url("../assets/dist-covers/trivandrum-cover.jpg");
 }
 .dist-image2{
-    background: url("./assets/dist-covers/kollam-cover.jpg");
+    background: url("../assets/dist-covers/kollam-cover.jpg");
 }
 .dist-image3{
-    background: url("./assets/dist-covers/ptm-cover.jpg");
+    background: url("../assets/dist-covers/ptm-cover.jpg");
 }
 .dist-image4{
-    background: url("./assets/dist-covers/alp-cover.jpg");
+    background: url("../assets/dist-covers/alp-cover.jpg");
 }
 .dist-image5{
-    background: url("./assets/dist-covers/ktm-cover.jpg");
+    background: url("../assets/dist-covers/ktm-cover.jpg");
 }
 .dist-image6{
-    background: url("./assets/dist-covers/idk-cover.jpg");
+    background: url("../assets/dist-covers/idk-cover.jpg");
 }
 .dist-image7{
-    background: url("./assets/dist-covers/ekm-cover.jpg");
+    background: url("../assets/dist-covers/ekm-cover.jpg");
 }
 .dist-image8{
-    background: url("./assets/dist-covers/tsr-cover.jpg");
+    background: url("../assets/dist-covers/tsr-cover.jpg");
 }
 .dist-image9{
-    background: url("./assets/dist-covers/pkd-cover.jpg");
+    background: url("../assets/dist-covers/pkd-cover.jpg");
 }
 .dist-image10{
-    background: url("./assets/dist-covers/mlp-cover.jpg");
+    background: url("../assets/dist-covers/mlp-cover.jpg");
 }
 .dist-image11{
-    background: url("./assets/dist-covers/kzhd-cover.jpg");
+    background: url("../assets/dist-covers/kzhd-cover.jpg");
 }
 .dist-image12{
-    background: url("./assets/dist-covers/wnd-cover.jpg");
+    background: url("../assets/dist-covers/wnd-cover.jpg");
 }
 .dist-image13{
-    background: url("./assets/dist-covers/knr-cover.jpg");
+    background: url("../assets/dist-covers/knr-cover.jpg");
 }
 .dist-image14{
-    background: url("./assets/dist-covers/ksgd-cover.jpg");
+    background: url("../assets/dist-covers/ksgd-cover.jpg");
 }
 
 .dist-card h3,p{
