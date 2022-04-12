@@ -105,8 +105,7 @@ function checksignup(){
             phoneErr.style.color = "red";
             phoneErr.innerHTML = "Invalid phone number format";
             ph.focus();
-        }              
-
+        }
     }
 
     if(messages.length > 0){
