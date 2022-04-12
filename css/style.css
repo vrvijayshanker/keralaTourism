@@ -232,3 +232,103 @@ footer{
     justify-content: space-evenly;
     position: relative;
 }
+
+
+/* signup validations styles */
+.signup{
+    margin: 5em;
+    padding: 2px;
+    
+    height: max-content;
+
+}
+
+.req-field::after{
+    content: "*";
+    color: red;
+}
+
+/* LOGIN MSG PROMPT  */
+#msgprompt{
+    color: #ef1e0b;
+    font-style: italic;
+    font-size: smaller;
+
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* Password status animations */
+
+ form .indicator{
+     height: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 10px 0;
+     display: none;
+ }
+
+ form .indicator span{
+     width: 100%;
+     height: 100%;
+     background: lightgrey;
+     border-radius: 20px;
+     position:relative;
+ }
+
+ form .indicator span.medium{
+     margin: 0 5px;
+ }
+
+ form .indicator span:before{
+     content: '';
+     position:absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+ }
+  
+ form .indicator span.active.weak:before{
+     background-color: red;
+
+ }
+ form .indicator span.active.medium:before{
+    background-color: orange;
+
+}
+
+form .indicator span.active.strong:before{
+    background-color: green;
+
+}
+
+form .passalert{
+    font-weight: 500;
+    margin-bottom: -10px;
+    text-align: center;
+    display: none;
+}
+
+form .passalert.weak{
+    color: red;
+}
+
+form .passalert.medium{
+    color: orange;
+}
+
+form .passalert.strong{
+    color: green;
+}
+
+form .repassalert{
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-align: center;
+    color: green;
+}

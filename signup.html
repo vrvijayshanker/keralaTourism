@@ -47,16 +47,15 @@
         </section>  <!-- Breadcrumb section ends -->
 
         <section class="text-block">
-
-          
-          
+                  
           <div class="form-block container d-flex align-items-center">
             <h3>Be a part of the Kerala Experience</h3>
-            <form class="form-control" action="">
+            <form class="form-control" action="./index.html" id="signupform">
               <div class="row mb-3">
                 <div class="col-6">
-                  <label class="form-label" for="fname">First Name:</label>
+                  <label class="form-label req-field" for="fname">First Name:</label>                  
                   <input class="form-control" type="text" name="fname" id="fname">
+                  <div id="fnamerr"></div>
                 </div>
                 <div class="col-6">
                   <label class="form-label" for="lname">Last Name:</label>
@@ -86,21 +85,26 @@
 
               <div class="row mb-3">
                 <div class="col">
-                  <label for="email" class="form-label">Email:</label>
-                  <input class="form-control" type="email" name="email" id="email" placeholder="john@service.com">
+                  <label for="email" class="form-label req-field">Email:</label>
+                  
+                  <input class="form-control" type="email" name="email" id="mail" placeholder="john@service.com">
+                  <div id="emailerr"></div>
                 </div>
               </div>
 
               <div class="row mb-3">
                 <div class="col">
-                  <label class="form-label" for="mob">Phone:</label>
+                  <label class="form-label req-field" for="mob">Phone:</label>
+                  
                   <input class="form-control" type="tel" name="mob" id="mob">
                 </div>
+                <div id="phoneerr"></div>
               </div>
 
               <div class="row mb-3">
                 <div class="col">
                   <label class="form-label" for="addr">Address:</label>
+                  
                   <textarea name="addr" id="addr" rows="5" class="form-control"></textarea>
                 </div>
               </div>
@@ -122,6 +126,7 @@
               <div class="row mb-3">
                 <div class="col">
                   <label class="form-label" for="emgy">Emergency Contact:</label>
+                  
                   <textarea name="emgy" id="emgy" rows="5" class="form-control"></textarea>
                 </div>
               </div>
@@ -129,9 +134,15 @@
               <div class="row mb-3">
                 
                 <div class="col">
-                  <label class="form-label" for="uname">Username:</label>
-                  <input class="form-control" type="text" name="uname" id="uname">
-                 
+                  <label class="form-label req-field" for="pwd">Password:</label>
+                  <input class="form-control" onkeyup="passwordStrCheck()" class="passfield" type="password" name="pwd" id="pwd" maxlength="20" minlength="8" placeholder="Minimum 8 and maximum 20 characters allowed" autocomplete="off"> 
+                  <!-- <span class="showBtn">SHOW</span> -->
+                  <div class="indicator">
+                    <span class="weak"></span>
+                    <span class="medium"></span>
+                    <span class="strong"></span>
+                  </div>  
+                  <div class="passalert"></div>              
                 </div>
                 
               </div>
@@ -139,40 +150,20 @@
               <div class="row mb-3">
                 
                 <div class="col">
-                  <label class="form-label" for="pswd">Password:</label>
-                  <input class="form-control" type="password" name="pswd" id="pswd">                 
+                  <label class="form-label req-field" for="rpswd">Re-enter Password:</label>
+                  <input class="form-control" type="password" name="rpswd" id="rpwd" onfocusout="repeatPassCheck()" autocomplete="off">                                 
                 </div>
-                
-              </div>
-
-              <div class="row mb-3">
-                
-                <div class="col">
-                  <label class="form-label" for="rpswd">Re-enter Password:</label>
-                  <input class="form-control" type="password" name="rpswd" id="rpswd">                 
-                </div>
-                
-              </div>
-
-              <div class="row mb-3">
-                
-                <div class="col">
-                  <p>I hereby declare that the information furnished above is true, complete and correct to the best of my knowledge and belief.</p>
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">I Agree</label> 
-                                  
-                </div>
-                
+                <div class="repassalert"></div>                 
               </div>
 
               <div class="row">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary" id="subbtn" onclick="checksignup()">Submit</button>
               </div>
 
               
             </form>
 
-          </div>             
+          </div>              
         </section>
         
         <footer class="container-fluid bg-light text.info">
@@ -181,6 +172,6 @@
             <a href="https://twitter.com/keralatourism" target="_blank"><img src="./assets/icons/twitter.svg" alt="Twitter"></a>
             <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank"><img src="./assets/icons/instagram.svg" alt="Instagram"></a>
         </footer>
-               
+        <script src="./js/validation.js"></script>       
 </body>
 </html>
