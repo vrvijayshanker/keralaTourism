@@ -128,7 +128,7 @@ function passwordStrCheck(){
     const passalert = document.querySelector(".passalert");
     const passinput = document.getElementById("pwd");
 
-    let regExpWeak = /[a-z]/;
+    let regExpWeak = /[a-zA-Z]/;
     let regExpMedium = /\d+/;
     let regExpStrong = /.[!,@,#,$,%,^,&,*,?,_,~,-,(,)]/;
 
