@@ -68,27 +68,32 @@
     <!-- NAVBAR ENDS -->
 
     <div class="login-block"> 
-      
-      <form>
-        <div class="row">
-          <div class="col-5">
-            <h4 class="mx-2">Join the Kerala Experience</h4>
+      <div>
+        <form action="./index.html">
+          <div class="row">
+            <div class="col">
+              <h6 class="mx-2">Join the Kerala Experience</h6>
+            </div>
+            <div class="col-3">
+              <input type="email" class="form-control" id="email" name="uname" placeholder="e-mail">
+              <p id="errmsg" class="mt-0"></p>
+              
+            </div>
+            <div class="col-3">
+              <input type="password" class="form-control" id="pswd" placeholder="password">
+              
+            </div>
+            <div class="col">
+              <input type="submit" class="form-control btn btn-primary" id="login-btn" value="login">
+              
+            </div>
+            <div class="col-2">
+              <p>Not a member yet?<br><a href="./signup.html">Sign up</a></p>
+            </div>
           </div>
-          <div class="col-2">
-            <input type="email" class="form-control" name="uname" placeholder="e-mail">
-          </div>
-          <div class="col-2">
-            <input type="password" class="form-control" placeholder="password">
-          </div>
-          <div class="col">
-            <input type="submit" class="form-control btn btn-primary" value="login">
-          </div>
-          <div class="col-2">
-            <p>Not a member yet?<br><a href="./signup.html">Sign up</a></p>
-          </div>
-        </div>
-      </form>
-      
+                    
+        </form>
+      </div>
     </div>
 
     <section class="mycarousel mx-5 mb-1 mt-1">
@@ -258,6 +263,8 @@
       <a href="https://twitter.com/keralatourism" target="_blank"><img src="./assets/icons/twitter.svg" alt="Twitter"></a>
       <a href="https://www.instagram.com/keralatourism/?hl=en" target="_blank"><img src="./assets/icons/instagram.svg" alt="Instagram"></a>
     </footer>
+
+    <script src="./js/validation.js"></script>
      
 </body>
 </html>
