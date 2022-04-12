@@ -99,6 +99,9 @@ function checksignup(){
             emailErr.innerHTML = "Invalid email";
             email.focus();
         }
+        else{
+            emailErr.innerHTML = "";
+        }
 
         if(!ph.value.match(phoneregexp)){
             messages.push("Invalid phone number format");
@@ -106,6 +109,10 @@ function checksignup(){
             phoneErr.innerHTML = "Invalid phone number format";
             ph.focus();
         }
+        else{
+            phoneErr.innerHTML = "";
+        }              
+
     }
 
     if(messages.length > 0){
